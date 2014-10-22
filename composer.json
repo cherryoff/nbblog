@@ -1,0 +1,31 @@
+{
+    "name": "cherryoff/nbblog",
+    "description": "Blog package for Laravel",
+    "keywords": ["blog", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cherryoff",
+            "email": "cherry.off@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cherryoff/Nbblog/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/models",
+            "src/controllers",
+            "src/seeds"
+        ],
+        "psr-0": {
+            "Cherryoff\\Nbblog\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

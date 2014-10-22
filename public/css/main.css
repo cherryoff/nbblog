@@ -1,0 +1,33 @@
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    color: #0A1A27;
+    background-color: #F8EED3;
+}
+
+body {
+    margin: 40px;
+}
+
+a {
+    color: #3AACCC;
+}
+
+a:hover {
+    color: #5D989B;
+}
+
+.posts-list {
+    max-width: 600px;
+}
+
+.posts-list li {
+    list-style: none;
+}
+
+.posts-list a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid #BDCEC8;
+}
