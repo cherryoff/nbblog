@@ -3,10 +3,11 @@
 @stop
 
 @section('content')
-    <a href="{{$uri}}/">Назад</a>
-    <h2>{{$header}}</h2>
-    <small>{{$created_at}}</small>
-    <p>
-        {{$article}}
-    </p>
+    <div class="post-block">
+        <span><small>{{$created_at}}</small></span>
+        <h2>{{$header}}</h2>
+        <p>
+            {{$article}}
+        </p>
+    </div>
 @stop

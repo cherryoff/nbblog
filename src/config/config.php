@@ -4,6 +4,9 @@
  */
 return array(
 
+    'blog_title' => 'My simple blog',
+    'blog_description' => 'This is just package for Laravel',
+
     'uri' => '/blog',
     'table_prefix'=>'nbblog_',
 
