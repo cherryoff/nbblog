@@ -33,4 +33,4 @@ You can add `'NbblogSeeder' => 'Cherryoff\Nbblog\NbblogSeeder',` in `app/config/
 
 And seed `php artisan db:seed --class="NbblogSeeder"`, for add initial data
 
-Then finally you need to publish the package's assets with the php artisan asset:publish cherryoff/nbblog command
+Then finally you need to publish the package's assets with the `php artisan asset:publish cherryoff/nbblog` command

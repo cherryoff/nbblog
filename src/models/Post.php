@@ -21,7 +21,7 @@ class Post extends Model {
 
     public static $rules = array(
         'header' => 'required|max:256',
-        'link' => 'required|between:2,32',
+        'link' => 'required|between:2,32|unique',
         'article' => 'required'
     );
 
