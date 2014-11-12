@@ -1,4 +1,3 @@
-
 # Laravel NBBlog
 
 Simple blog for Laravel
